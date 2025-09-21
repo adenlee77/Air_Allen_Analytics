@@ -1,0 +1,9 @@
+data:
+  seasons: [2018, 2019, 2020, 2021, 2022, 2023, 2024]
+  out_path: outputs/dataset.parquet
+features:
+  windows: [3, 5]
+  include_std: true
+  include_trend: true
+eval:
+  test_season: 2024
